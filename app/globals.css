@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@font-face {
+  font-family: "AlegreyaSans Regular";
+  src: url("/fonts/AlegreyaSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AlegreyaSans Medium";
+  src: url("/fonts/AlegreyaSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AlegreyaSans Bold";
+  src: url("/fonts/AlegreyaSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AlegreyaSans Light";
+  src: url("/fonts/AlegreyaSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Alata";
+  src: url("/fonts/Alata-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/fonts/KumbhSans-VariableFont.ttf") format("truetype");
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyfont {
+  font-family: "Kumbh Sans";
+}
+
+.modernfont-light {
+  font-family: "Kumbh Sans";
+  font-weight: 200;
+}
+
+.modernfont {
+  font-family: "Kumbh Sans";
+}
+
+.modernfont-bold {
+  font-family: "Kumbh Sans";
+  font-weight: 500;
+}
+
+.modernfont-regular {
+  font-family: "Kumbh Sans";
+  font-weight: 300;
+}
+
+.subheading {
+  font-family: "Alata";
+}
+
+.alegreyasans-regular {
+  font-family: "AlegreyaSans Regular", sans-serif;
+}
+
+.alegreyasans-medium {
+  font-family: "AlegreyaSans Medium", sans-serif;
+}
+
+.alegreyasans-light {
+  font-family: "AlegreyaSans Light", sans-serif;
+}
+
+.alegreyasans-bold {
+  font-family: "AlegreyaSans bold", sans-serif;
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
