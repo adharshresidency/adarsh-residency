@@ -22,11 +22,12 @@ export default function AboutSection() {
           </p>
 
           <p className="mt-4 text-gray-700 bodyfont leading-relaxed text-sm md:text-base max-w-xl">
-            We focus on providing high-end, "ready-to-live" experiences for
-            guests who refuse to compromise on quality. Every detail, from our
-            contemporary architecture to our choice of global brand-name
-            appliances, is curated to ensure your stay is seamless, whether you
-            are here for a family getaway or a long-term "workation."
+            We focus on providing high-end, &quot;ready-to-live&quot;
+            experiences for guests who refuse to compromise on quality. Every
+            detail, from our contemporary architecture to our choice of global
+            brand-name appliances, is curated to ensure your stay is seamless,
+            whether you are here for a family getaway or a long-term
+            &quot;workation.&quot;
           </p>
         </div>
 

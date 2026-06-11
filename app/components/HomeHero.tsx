@@ -180,7 +180,11 @@ export default function HomeHero() {
                   setTimeout(() => setShowError(false), 2000);
                   return;
                 }
-                window.open(whatsappLink, "_blank");
+
+                window.open(
+                  "https://app.minihotelman.com/ChannelManager/booking-engine/adharsh-residency",
+                  "_blank",
+                );
               }}
               className="bg-[#5b4636] cursor-pointer hover:bg-stone-900 text-sm md:text-lg text-white font-semibold px-6 py-3 rounded-lg text-center whitespace-nowrap"
             >
