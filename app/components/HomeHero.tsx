@@ -188,7 +188,7 @@ export default function HomeHero() {
               }}
               className="bg-[#5b4636] cursor-pointer hover:bg-stone-900 text-sm md:text-lg text-white font-semibold px-6 py-3 rounded-lg text-center whitespace-nowrap"
             >
-              Book Your Stay
+              Book Your Sta
             </button>
 
             {/* Calendar */}
